@@ -1,0 +1,76 @@
+*{margin:0px;padding:0px;}
+body{
+	color:white;
+	background-color:#161714;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.4em;
+}
+.main{
+	position:relative;
+	background-color:#272822;
+	width:60%;
+}
+h1{
+	text-shadow: #161714 1px 2px 0px;
+	text-align:center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 44px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: normal;
+	letter-spacing: -2px;
+	line-height: 1.2em;
+
+}
+.y{
+	color:#e6db74;
+}
+#note{
+	text-align:center;	
+}
+#nflames{
+	position:fixed;
+	color:#f92672;
+	font-weight:bold;
+	right:20%;
+}
+#flames{
+	text-align: left;
+	background-color:#460019;
+	color:#f92672;
+}
+.topic{
+	text-shadow: #161714 1px 2px 0px;
+	text-align:center;
+	color:#a6e22e;
+	font-family: “Trebuchet MS”, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: normal;
+	letter-spacing: -1px;
+	line-height: 1.2em;
+
+
+}
+.linky{
+	cursor:pointer;
+	cursor:hand;
+}
+.g{
+	color:#a6e22e;
+}
+.topic:hover{
+	color:white;
+}
+.topic:hover:after{
+	position:fixed;
+	color:#f92672;
+	font-weight:bold;
+	right:20%;
+}

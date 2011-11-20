@@ -1,0 +1,10 @@
+Lets people pester you that you haven't done x task.
+Uses taskwarrior.
+I can't be bothered to style the input form properly right now, maybe later.
+To setup:
+sudo mkdir /opt/task/
+sudo chown [USERNAME]:users /opt/task/
+task push /opt/task/
+then just 
+task push /opt/task/
+anytime to update the tasklist
