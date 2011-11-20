@@ -17,7 +17,7 @@ function nflames($entryn)
 function splitdata($s)
 {
 	if (strpos($s, " ") === False)
-	#If tag only:
+	//If tag only:
 	{
 		$tag = $s;
 		$longname = "";//str_replace("-"," ", $s);
@@ -25,7 +25,7 @@ function splitdata($s)
 	else
 	{
 		if (strpos($s, "-") === False){
-		#If longname only
+		//If longname only
 			$a = explode(" ", $s);
 			$tag = $a[count($a)-1]; //str_replace(" ","-", $s);
 			array_pop($a);
@@ -33,7 +33,7 @@ function splitdata($s)
 		}
 		else
 		{
-		#chimera
+		//chimera
 			$a = explode(" ", $s);
 			$tag = $a[count($a)-1];
 			array_pop($a);
