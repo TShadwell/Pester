@@ -1,7 +1,6 @@
 Lets people pester you that you haven't done x task.
 Uses taskwarrior.
-I can't be bothered to style the input form properly right now, maybe later.
-To setup:
+To setup on a GNU/Linux system:
 sudo mkdir /opt/task/
 sudo chown [USERNAME]:users /opt/task/
 task push /opt/task/
