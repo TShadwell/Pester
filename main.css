@@ -58,6 +58,51 @@ h1{
 
 
 }
+button {
+	position:relative;
+	margin-left:-3px;
+	width: 20%;
+	border-top: 1px solid #8c0031;
+	border-right: 1px solid #8c0031;
+	border-bottom: 1px solid #8c0031;
+	border-left:0px;
+	display: inline;
+	font-size: 24px;
+	height:31px;
+	background-color: #460019;
+	color: #f92672;
+	font-weight: bold;
+	font-family: “Trebuchet MS”, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: normal;
+	letter-spacing: -1px;
+	line-height: 1.2em;
+	vertical-align:top;
+}
+input {
+	position:relative;
+	width: 80%;
+	margin-right:-3px;
+	border-top: 1px solid #8c0031;
+	border-left: 1px solid #8c0031;
+	border-bottom: 1px solid #8c0031;
+	border-right:0px;
+	display: inline;
+	font-size: 24px;
+	background-color: #460019;
+	color: #f92672;
+	font-weight: bold;
+	font-family: “Trebuchet MS”, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: normal;
+	letter-spacing: -1px;
+	line-height: 1.2em;
+	vertical-align:top;
+}
 .linky{
 	cursor:pointer;
 	cursor:hand;
